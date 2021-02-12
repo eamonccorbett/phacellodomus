@@ -315,7 +315,7 @@ popsize_r0_m0.move_lineages("sincipitalis", "rufifrons", t="t2")
 popsize_r0_m0.add_leaf("specularis", N="n_specularis")
 popsize_r0_m0.add_time_param("t3", lower_constraints=["t2"])
 popsize_r0_m0.move_lineages("rufifrons", "specularis", t="t3")
-#run de model again!
+#run the model again!
 #popsize_r0_m0.optimize(method="L-BFGS-B")
 
 #now do a few repeats
@@ -362,7 +362,7 @@ popsize_r0_m1.move_lineages("sincipitalis", "rufifrons", t="t2")
 popsize_r0_m1.add_leaf("specularis", N="n_specularis")
 popsize_r0_m1.add_time_param("t3", lower_constraints=["t2"])
 popsize_r0_m1.move_lineages("rufifrons", "specularis", t="t3")
-#run de model again!
+#run the model again!
 #popsize_r0_m1.optimize(method="L-BFGS-B")
 
 #now do a few repeats
@@ -410,7 +410,7 @@ popsize_r0_m2.move_lineages("sincipitalis", "rufifrons", t="t2")
 popsize_r0_m2.add_leaf("specularis", N="n_specularis")
 popsize_r0_m2.add_time_param("t3", lower_constraints=["t2"])
 popsize_r0_m2.move_lineages("rufifrons", "specularis", t="t3")
-#run de model again!
+#run the model again!
 #popsize_r0_m2.optimize(method="L-BFGS-B")
 
 #now do a few repeats
@@ -459,7 +459,7 @@ popsize_r0_m3.add_time_param("t2", lower_constraints=["t1", "tb"])
 popsize_r0_m3.move_lineages("sincipitalis", "rufifrons", t="t2")
 popsize_r0_m3.add_time_param("t3", lower_constraints=["t2"])
 popsize_r0_m3.move_lineages("rufifrons", "specularis", t="t3")
-#run de model again!
+#run the model again!
 #popsize_r0_m3.optimize(method="L-BFGS-B")
 
 #now do a few repeats
@@ -508,7 +508,7 @@ popsize_r0_m4.add_time_param("t2", lower_constraints=["t1"])
 popsize_r0_m4.move_lineages("sincipitalis", "rufifrons", t="t2")
 popsize_r0_m4.add_time_param("t3", lower_constraints=["t2", "tb"])
 popsize_r0_m4.move_lineages("rufifrons", "specularis", t="t3")
-#run de model again!
+#run the model again!
 #popsize_r0_m4.optimize(method="L-BFGS-B")
 
 #now do a few repeats
