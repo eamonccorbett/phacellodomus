@@ -1,0 +1,5 @@
+source activate momi-py36
+gunzip -c vcf_allele_counts2.gz | head
+
+python -m momi.extract_sfs sfs1.gz 20 vcf_allele_counts2.gz
+sfs = momi.Sfs.load("sfs1.gz")
